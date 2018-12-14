@@ -1,0 +1,411 @@
+body{
+}
+
+.content{
+  max-width: 1300px;
+
+  margin: auto;
+
+}
+
+section{
+
+  margin: auto;
+  height: auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  clear: both;
+}
+.sectioncontent{
+  max-width: 1200px;
+  margin: auto;
+  height: auto;
+clear: both;
+padding-top: 30px;
+}
+.container {
+  background-color: #e5e5e5;
+  width: 100%;
+  height: auto;
+}
+
+.textcontent{
+  width: 49%;
+  background-color:#e5e5e5;
+  height: 400px;
+}
+.text{
+  width: 60%;
+  text-align: left;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.text p, .videosection p {
+  font-family: 'Lato';
+  font-size: 20px;
+  line-height: 26px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+
+}
+iframe{
+  margin: 10px;
+}
+
+.videosection{
+  margin-bottom: 0px;
+}
+
+.videosection h1{
+  padding-top: 20px;
+}
+.visualcontent{
+  width: 49%;
+  background-color:#e5e5e5;
+    height: 400px;
+}
+
+div h1{
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 48px;
+}
+
+section h2{
+  padding-top: 20px;
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 36px;
+}
+
+section h3{
+  font-family: 'Lato';
+  font-weight: normal;
+  font-size: 24px;
+padding-top: 15px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding-top: 40px;
+}
+.column p {
+  font-family: 'Lato';
+  padding: 20px;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.featuresection, .videosection {
+  background-color: #e5e5e5;
+
+}
+
+.justleft{
+  float: left;
+}
+.justright{
+  float: right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.presssection {
+  width: 100%;
+  height: 200px;
+  background-color: #b7b7b7;
+  clear: both;
+
+}
+
+.presssection h1 {
+  padding-top: 20px;
+}
+
+.managerrow img {
+  display: inline-block;
+  margin:auto;
+
+}
+
+.managerrow{
+  background-color: #b7b7b7;
+
+}
+
+.managerrow h3{
+  background-color: #b7b7b7;
+padding-top: 5px;
+font-size: 14px;
+padding-bottom: 20px;
+}
+
+.managerrow ul{
+  text-align: left;
+  font-family: 'Lato';
+padding: 30px;
+padding-left: 0px;
+padding-top: 50px;
+
+width: 80%;
+}
+
+.managerrow li{
+  padding-bottom: 20px;
+}
+
+.twocolumn{
+  float: left;
+width: 50%;
+padding-bottom: 30px;
+}
+
+
+/* FOOTER STYLES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+footer{
+
+  clear: both;
+  background-color: black;
+  height: auto;
+  width: 100%;
+}
+
+.textblock{
+  margin-left: 40px;
+  padding-top: 40px;
+  width: 40%;
+    display: block;
+    margin-right: 0px;
+}
+
+.textblock p {
+  color: white;
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 25px;
+
+
+}
+
+.footernavblock{
+
+  height:auto;
+  width: 130px;
+  color: white;
+  font-family: 'Lato';
+  font-weight: normal;
+
+}
+
+.footernavblock li{
+padding: 5px;
+}
+
+.right {
+  float:right;
+  margin-right: 50px;
+}
+.left {
+  float:left;
+  margin-left: 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footerlink{
+  padding: 50px;
+  padding-left: 0px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.copyright p {
+  font-family: 'Lato';
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.copyright {
+  width: auto;
+display: inline-block;
+
+}
+
+.socialcontainer {
+width: 40%;
+text-align: right;
+  float: right;
+display: inline-block;
+padding-top: 25px;
+margin-right: 60px;
+
+}
+
+.socialcontainer img {
+  padding-left: 20px;
+}
+
+
+
+
+
+/* NAV BAR STYLES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+div.navarea {
+
+background-color: black;
+max-width: 100%;
+width: 100%;
+height: auto;
+border-bottom: 1px solid black;
+}
+
+div.logo {
+
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+  padding: 4px;
+  position:relative;
+  overflow: hidden;
+}
+
+div.navbar{
+  margin-left: 40px;
+  display: inline;
+  height: auto;
+}
+
+.navbar div {
+
+   width: auto;
+   position: relative;
+   display: inline-block;
+   font-weight: normal;
+   text-align: center;
+   padding: 27px 16px;
+
+}
+
+
+
+.navbar a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Lato';
+  color: white;
+  font-weight: inherit;
+}
+
+
+
+div.CTAholder  {
+  float: right;
+  display: inline-block;
+
+}
+
+section div.CTAholder  {
+  float: left;
+  display: inline-block;
+  padding-top: 30px;
+
+}
+
+section div.CTAholder button {
+  float: left;
+  display: inline-block;
+
+  border: 1px solid black;
+}
+
+
+
+div.CTAholder button{
+  width: auto;
+  font-family: 'Lato';
+  font-size: 18px;
+  background-color: #000000;
+  color: white;
+  border: 1px solid white;
+   font-weight: bolder;
+   padding: 16px 12px;
+   margin-right: 20px;
+margin-top: 7px;
+}
+div.CTAholder button:hover {
+  color: black;
+  background-color: white;
+}
+
+ .navbar div .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 14px;
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+.navbar div.dropdown-content{
+  text-align: left;
+}
+
+div h6{
+  font-variant-caps: small-caps;
+}
+
+div h5{
+font-weight: bold;
+font-size: 18px;
+padding-bottom: 10px;
+}
+
+hr{
+  clear: both;
+  max-width: 93%;
+  opacity: 0.5;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  font-weight: normal;
+}
+
+.why:hover .dropdown-content {
+  display: block;
+
+  }
+
+.why:hover {
+  font-weight: bold;
+}
+
+.solutions:hover {
+  font-weight: bold;
+}
+
+.solutions:hover .dropdown-content {display: block;
+}
